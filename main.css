@@ -99,6 +99,165 @@ button:hover{
   max-width: 550px;
 }
 
+.features {
+  background-color: #ffffff;
+  padding: 115px 60px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.card {
+  padding: 35px 40px 25px 40px;
+  border: solid 1px #D9E4E6;
+  border-radius: 5px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.8;
+}
+
+.card__logo {
+  width: 100px;
+  height: 100px;
+  font-size: 32px;
+  font-weight: 700;
+  background-color: #eaeff9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__logo__color-1 {
+  color: #ffb406;
+}
+
+.card__logo__color-2 {
+  color: #ad1714;
+}
+
+.card__logo__color-3 {
+  color: #22a030;
+}
+
+.features__border {
+  margin: 50px 0;
+  border: solid 1px #E6EAF4;
+}
+
+.features__feedback {
+  display:flex;
+}
+
+.features__feedback-left {
+  margin-right: 10px;
+}
+
+.features__feedback-left h2 {
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+.features__feedback-left p {
+  font-size: 18px;
+  line-height: 26px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.features__feedback-right {
+  display: flex;
+}
+
+.features__box {
+  padding: 30px 40px 25px 40px;
+  color: #ffffff;
+  border-radius: 25px;
+}
+
+.features__box h3 {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-size: 48px;
+}
+
+.features__savings-box {
+  background-color: #dc5e26;
+  box-shadow: 0px 6px 0px rgb(221 95 38 / 20%);
+  margin-right: 30px;
+}
+
+.features__rate-box {
+  background-color: #1D263A;
+  box-shadow: 0px 6px 0px rgb(29 38 58 / 20%);
+}
+
+.stars {
+  color: #ff7039;
+}
+
+.promo {
+  display: flex;
+  justify-content: center;
+}
+
+.promo__image {
+  background-image: url(img/promo.jpg);
+  background-size: cover;
+  flex-shrink: 0;
+  flex-basis: 50%;
+}
+
+.promo__right {
+  background-color: #dd5f26;
+  padding: 160px 60px;
+  flex-basis: 50%;
+}
+
+.promo__right__card {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  border-radius: 25px;
+}
+
+.promo__right__card p {
+  opacity: 0.8;
+}
+
+.promo__right__button__container {
+  text-align: center;
+}
+
+.promo__right__button {
+  background-color: #107b1c;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+}
+
+.promo__right__button__i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.promo__right__span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #ec6b29;
+  margin-right: 10px;
+}
 .form__container {
   width: 550px;
 }
